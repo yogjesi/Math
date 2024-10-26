@@ -29,9 +29,13 @@ from sympy.plotting import plot3d
 # expr = x**2 / x**5
 # print(expr)
 
-i, n = symbols('i n')
+# i, n = symbols('i n')
 
-summation = Sum(2*i, (i, 1, n))
+# summation = Sum(2*i, (i, 1, n))
 
-up_to_5 = summation.subs(n, 5)
-print(up_to_5.doit())
+# up_to_5 = summation.subs(n, 5)
+# print(up_to_5.doit())
+
+# from math import log
+# x = log(8, 2)
+# print(x)
